@@ -56,7 +56,7 @@ spec:
     spec:
       containers:
         - name: ${APP_NAME}
-          image: invalid-image-does-not-exist:latest
+          image: ${Wrong_DOCKER_IMAGE_}
           ports:
             - containerPort: ${APP_PORT}
           env:
