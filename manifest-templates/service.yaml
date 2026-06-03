@@ -11,7 +11,7 @@ spec:
     app: ${APP_NAME}
   ports:
     - protocol: TCP
-      port: 9999
+      port: 80
       targetPort: ${APP_PORT}
   type: ClusterIP
  
